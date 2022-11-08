@@ -1,0 +1,96 @@
+
+.history {
+
+
+  .container {
+
+    width: 444px;
+    text-align: center;
+    margin: 166px 0 0 250px;
+
+
+    .history_holder {
+      display: flex;
+      justify-content: space-between;
+
+      .history_info {
+
+        .history_title {
+          font-family: 'Tinos', serif;
+          font-size: 54px;
+          margin: 0 0 21px 30px;
+
+          span {
+            color: #D67E34;
+            margin-left: 10px;
+          }
+
+        }
+
+        .history_desc {
+          font-size: 16px;
+          color: #656363;
+          line-height: 25px;
+
+        }
+
+        .history_number {
+          display: flex;
+          width: 444px;
+          justify-content: center;
+          margin: 95px 0 0 30px;
+
+
+          .number_item {
+            margin-right: 60px;
+            font-size: 40px;
+            color: #BC9060;
+
+            span {
+              display: block;
+              color: #000;
+              font-size: 20px;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+
+      .history_images {
+        position: relative;
+
+        img:nth-child(1) {
+          position: absolute;
+          z-index: 9;
+          top: 11px;
+          left: 74px;
+        }
+
+        img:nth-child(2) {
+          position: absolute;
+          z-index: 8;
+          top: -49px;
+          left: 277px;
+        }
+
+        img:nth-child(3) {
+          position: absolute;
+          z-index: 9;
+          top: 179px;
+          left: 383px;
+        }
+
+      }
+
+    }
+
+
+  }
+
+
+}
+
+
+
+
+
