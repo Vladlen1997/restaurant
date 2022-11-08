@@ -1,0 +1,77 @@
+@mixin param($fs, $fw, $col) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $col;
+}
+
+.bottom {
+
+  position: relative;
+
+  .title {
+    @include param(50px, 400, #D67E35);
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+
+    .subtitle {
+      @include param(80px, 400, #D67E35);
+      margin-bottom: 15px;
+    }
+
+
+    .button {
+
+      a {
+        background-color: #FF7400;
+        text-transform: uppercase;
+        @include param(14px, 700, #FFFFFF);
+        padding: 14px 28px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 9px 1px rgba(255, 130, 0, 1);
+        transition: box-shadow 0.2s linear;
+
+        &:hover {
+          box-shadow: 2px 3px 9px 2px rgba(255, 130, 0, 1);
+        }
+
+      }
+    }
+
+    .subhead {
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      @include param(18px, 400, #FFFFFF);
+
+      &:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 61px;
+        background-color: #FFFFFF;
+        top: 152px;
+        left: 89px;
+      }
+
+      &:before {
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 61px;
+        background-color: #FFFFFF;
+        top: 152px;
+        left: 332px;
+      }
+
+
+    }
+  }
+
+
+}
+
+
+
+
