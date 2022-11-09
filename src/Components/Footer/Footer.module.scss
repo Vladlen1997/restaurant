@@ -1,0 +1,33 @@
+.footer {
+  background-image: url("../../../public/img/black_bg.png");
+  padding: 80px 0;
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .footer_title {
+          font-size: 26px;
+          color: #FFFFFF;
+      }
+
+      .footer_links {
+
+        a {
+
+          img {
+
+            width: 60px;
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+
+}
