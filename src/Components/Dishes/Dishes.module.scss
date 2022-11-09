@@ -1,0 +1,52 @@
+.dishes {
+
+  .container {
+
+    .dishes_title {
+      text-align: center;
+      font-family: 'Tinos', serif;
+      font-size: 54px;
+      padding-top: 132px;
+      margin-bottom: 100px;
+
+      span {
+        color: #D67E34;
+      }
+
+    }
+
+    .burgers {
+      display: flex;
+      justify-content: center;
+
+
+      img:hover {
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        transition: box-shadow 0.4s linear;
+      }
+
+      .burgers_items {
+        .burgers_image {
+          margin-right: 20px;
+        }
+
+
+        .burger_item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 26.7px;
+          margin-left: 20px;
+          font-family: 'Tinos', serif;
+          font-size: 26px;
+
+
+          .burger_text {
+            margin-left: 20px;
+          }
+        }
+      }
+
+    }
+  }
+
+}
