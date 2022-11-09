@@ -1,0 +1,70 @@
+@mixin text($fs, $fw, $ff, $col) {
+  font-size: $fs;
+  font-weight: $fw;
+  font-family: $ff;
+  color: $col;
+}
+
+
+.black {
+  background-image: url('../../../public/img/black_bg.png');
+  padding: 80px 0;
+
+  .container {
+
+
+    .black_holder {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .black_left {
+        margin-left: 166px;
+
+        .left_title {
+
+          @include text(52px, 400, 'Tinos', #D67E34);
+          margin-bottom: 20px;
+
+        }
+
+
+        .left_text {
+
+          @include text(24px, 700, 'Open Sans', #FFFFFF);
+
+        }
+
+      }
+
+
+      .black_right {
+
+        .black_btn {
+          margin-right: 186px;
+
+          a {
+            background-color: #FF7400;
+            @include text(14px, 700, 'Open Sans', #FFFFFF);
+            text-transform: uppercase;
+            padding: 14px 28px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 9px 1px rgba(255, 130, 0, 1);
+            transition: box-shadow 0.2s linear;
+
+            &:hover {
+              box-shadow: 2px 3px 9px 2px rgba(255, 130, 0, 1);
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}
