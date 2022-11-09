@@ -5,8 +5,8 @@
 }
 
 .bottom {
-
   position: relative;
+
 
   .title {
     @include param(50px, 400, #D67E35);
@@ -15,6 +15,7 @@
     top: 200px;
     font-family: 'Tinos', serif;
     text-align: center;
+    margin-left: 100px;
 
     .subtitle {
       @include param(80px, 400, #D67E35);
