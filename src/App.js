@@ -31,7 +31,7 @@ const App = () => {
                 <Gallery/>
                 <Cook/>
                 <Footer/>
-                {cartOpened && <CartPage />}
+                {cartOpened && <CartPage onClose={() => setCartOpened(false)} />}
             </div>
         </div>
     );
