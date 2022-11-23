@@ -3,7 +3,7 @@ import classes from './Header.module.scss';
 import HeaderBottom from "./HeaderBottom/HeaderBottom";
 
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className={classes.header}>
             <div className={classes.container}>
@@ -20,9 +20,7 @@ const Header = () => {
                     </div>
 
                     <div className={classes.cart}>
-                        <a href="src/Components/Header/Header#">
-                            <img src="/img/cart.png" alt="cart"/>
-                        </a>
+                            <img onClick={props.onClickCart} src="/img/cart.png" alt="cart"/>
                     </div>
 
                     <div className={classes.phone}>
