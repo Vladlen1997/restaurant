@@ -13,10 +13,10 @@ const Header = (props) => {
                     </div>
 
                     <div className={classes.nav}>
-                        <a href="src/Components/Header/Header#">Главная</a>
-                        <a href="src/Components/Header/Header#">Меню</a>
-                        <a href="src/Components/Header/Header#">О нас</a>
-                        <a href="src/Components/Header/Header#">Бронь</a>
+                        <a href="#">Главная</a>
+                        <a href="#">Меню</a>
+                        <a href="#">О нас</a>
+                        <a href="#">Бронь</a>
                     </div>
 
                     <div className={classes.cart}>
@@ -26,10 +26,10 @@ const Header = (props) => {
                     <div className={classes.phone}>
                         <div className={classes.phone_holder}>
                             <div className={classes.phone_logo}>
-                                <a href="src/Components/Header/Header#"><img src="/img/phone.png" alt="phone"/></a>
+                                <a href="#"><img src="/img/phone.png" alt="phone"/></a>
                             </div>
                             <div className={classes.number}>
-                                <a href="src/Components/Header/Header#">+999-888-76-54</a>
+                                <a href="#">+999-888-76-54</a>
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ const Header = (props) => {
                     </div>
 
                     <div className={classes.btn}>
-                        <a href="src/Components/Header/Header#">Заказ столика</a>
+                        <a href="#">Заказ столика</a>
                     </div>
                 </div>
 
